@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopMania</title>
+    <script src="https://kit.fontawesome.com/25203f89a5.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+<body >
+    
+<header class="upper-header">
+    <div class="container">
+
+        <div class="social-icons">
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+
+        <div class="search-bar">
+            <form class="example">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+
+        <div class="select-items">
+            <select class="sel-opt" id="currency">
+                <option value="INR">INR</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+            </select>
+            <select class="sel-opt"  id="language">
+                <option value="ENG">ENG</option>
+                <option value="HIN">HIN</option>
+                <option value="ARB">ARB</option>
+            </select>
+        </div>
+
+    </div>
+</header>
+<hr>
+
+<header  class="header">
+
+    <div class="container">
+
+        <div class="logo">
+            <h2>Shop<i>Mania</i></h2>
+        </div>
+
+        <nav class="Navbar">
+            <ul class="nav-list">
+                <li><div class="select-items">
+                    <select class="sel-opt" id="currency">
+                        <option value="INR">INR</option>
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                    </select>
+                    <select class="sel-opt"  id="language">
+                        <option value="ENG">ENG</option>
+                        <option value="HIN">HIN</option>
+                        <option value="ARB">ARB</option>
+                    </select>
+                </div></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#foot">Contact</a></li>
+                <li><a href="#product">Shop</a></li>
+                <li><a href="#new-arrival">
+                    New Arrival <i class="fa-solid fa-angle-down"></i></a>
+                    <div class="arrival-menu">
+                        <ul>
+                            <li><a href="#">Mens</a></li>
+                            <li><a href="#">Womens</a></li>
+                            <li><a href="#">Shoes</a></li>
+                            <li><a href="#">Outfits</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#testi">Testimonials</a></li>
+
+                <li><div class="social-icons">
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div></li>
+                
+            </ul>
+        </nav>
+
+        <div class="icons">
+            <i class="fa-solid fa-user nav-icons" onclick="showfom()"></i>
+            <i class="fa-solid fa-cart-plus nav-icons"></i>
+            <i class="fa-solid fa-arrows-to-dot nav-icons"></i>
+        </div>
+
+        <div class="mobile-menu">
+            <i class="fa-solid fa-bars menu-btn"></i>
+            <i class="fa-solid fa-circle-xmark menu-btn"></i>
+        </div>
+
+    </div>
+
+</header>
+<hr>
+
+<!-- ===================== login form ======================= -->
+
+        <form action="" class="fom">
+            <i class="fa-solid fa-x" onclick="hidefom()"></i>
+            <div class="input-container">
+                <i class="fa fa-user icon"></i>
+                <input class="input-field" type="text" placeholder="Username" name="usrnm">
+            </div>
+            <div class="input-container">
+                <i class="fa-solid fa-envelope icon"></i>
+                <input class="input-field" type="email" placeholder="Email" name="email">
+            </div>
+        
+            <div class="input-container">
+                <i class="fa fa-key icon"></i>
+                <input class="input-field" type="password" placeholder="Password" name="psw">
+            </div>
+        
+            <div class="input-a">
+            <a href="#">Forgot Passward ?</a>
+        </div>
+        
+            <button type="submit" class="btn">SIGN UP</button>
+        
+            <!-- <label for="password">Password:</label>
+                <input type="password" placeholder="Password">
+            </div> -->
+        </form>
+
+
+
+<!-- ======================= Hero-Section ================== -->
+
+<section class="hero-section" id="home">
+
+    <div class="row">
+        <div class="text">
+            <p>Latest Items</p>
+            <h2>TODAY'S LATEST <br> FASHION SALE</h2>
+            <h4>starting at ₹199.00</h4>
+            <a href="#" class="hero-btn">Buy Now</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- ========================== sub-category ============================ -->
+
+<section class="sub-cat">
+
+    <div class="container">
+    
+        <!-- <div class="row"> -->
+
+            <div class="box-1">
+                <img src="images/watch.svg" alt="">
+                <div class="inner-text">
+                    <h2>Electronics <span>(83)</span></h2>
+                    <a href="#">See all </a>
+                </div>
+            </div>
+
+            <div class="box-1">
+                <img src="images/coat.svg" alt="">
+                <div class="inner-text">
+                    <h2>Winter Wear <span>(72)</span></h2>
+                    <a href="#">See all </a>
+                </div>
+            </div>
+
+            <div class="box-1">
+                <img src="images/glasses.svg" alt="">
+                <div class="inner-text">
+                    <h2>Glasses & Lens <span>(98)</span></h2>
+                    <a href="#">See all </a>
+                </div>
+            </div>
+
+            <div class="box-1">
+                <img src="images/jacket.svg" alt="">
+                <div class="inner-text">
+                    <h2>Jakets <span>(54)</span></h2>
+                    <a href="#">See all </a>
+                </div>
+            </div>
+
+            <div class="box-1">
+                <img src="images/hat.svg" alt="">
+                <div class="inner-text">
+                    <h2>Hat & Caps <span>(105)</span></h2>
+                    <a href="#">See all </a>
+                </div>
+            </div>
+
+        <!-- </div> -->
+
+    </div>
+
+</section>
+
+<!-- ======================= category ================== -->
+
+<section class="category">
+
+    <div class="heading">
+        <h1>CATEGORIES</h1>
+        
+    </div>
+
+    <div class="container">
+
+        <!-- <div class="row"> -->
+
+            <div class="box-2">
+                <img src="images/products/jacket-1.jpg" alt="">
+                <h3>Coat</h3>
+            </div>
+
+            <div class="box-2">
+                <img src="images/products/clothes-1.jpg" alt="">
+                <h3>T-Shirts</h3>
+            </div>
+
+            <div class="box-2">
+                <img src="images/products/watch-1.jpg" alt="">
+                <h3>Watches</h3>
+            </div>
+
+            <div class="box-2">
+                <img src="images/products/belt.jpg" alt="">
+                <h3>Lether Belts</h3>
+            </div>
+
+            <div class="box-2">
+                <img src="images/products/jewellery-1.jpg" alt="">
+                <h3>Jewellery</h3>
+            </div>
+
+            <div class="box-2">
+                <img src="images/products/perfume.jpg" alt="">
+                <h3>Perfumes</h3>
+            </div>
+
+            <div class="box-2">
+                <img src="images/products/shampoo.jpg" alt="">
+                <h3>Shampoos</h3>
+            </div>
+
+            <div class="box-2">
+                <img src="images/products/shirt-1.jpg" alt="">
+                <h3>Shirts</h3>
+            </div>
+
+        <!-- </div> -->
+
+    </div>
+
+</section>
+
+<!-- ==================== new arrival ======================= -->
+
+<section class="new-arrival" id="new-arrival">
+
+    <div class="heading">
+        <h1>NEW ARRIVAL</h1>
+        
+    </div>
+
+    <div class="container">
+
+        <!-- <div class="row"> -->
+
+            <div class="box-4">
+                <img src="images/products/jacket-2.jpg" class="img-hov" alt="">
+                <img src="images/products/jacket-3.jpg" class="img-hov2" alt="">
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h4>Mens Winter Leathers Jackets</h4>
+                <div class="price"><del>₹1500</del>₹1199</div>
+            </div>
+
+            <div class="box-4">
+                <img src="images/products/shoe-1.jpg" class="img-hov" alt="">
+                <img src="images/products/shoe-1_1.jpg" class="img-hov2" alt="">
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h4>Mens Winter Leathers Jackets</h4>
+                <div class="price"><del>₹1500</del>₹1199</div>
+            </div>
+
+            <div class="box-4">
+                <img src="images/products/shirt-1.jpg" class="img-hov" alt="">
+                <img src="images/products/shirt-2.jpg" class="img-hov2" alt="">
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h4>Mens Winter Leathers Jackets</h4>
+                <div class="price"><del>₹1500</del>₹1199</div>
+            </div>
+
+            <div class="box-4">
+                <img src="images/products/watch-1.jpg" class="img-hov" alt="">
+                <img src="images/products/watch-2.jpg" class="img-hov2" alt="">
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h4>Mens Winter Leathers Jackets</h4>
+                <div class="price"><del>₹1500</del>₹1199</div>
+            </div>
+
+            <div class="box-4">
+                <img src="images/products/jacket-3.jpg" class="img-hov" alt="">
+                <img src="images/products/jacket-1.jpg" class="img-hov2" alt="">
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h4>Mens Winter Leathers Jackets</h4>
+                <div class="price"><del>₹1500</del>₹1199</div>
+            </div>
+
+        <!-- </div> -->
+
+    </div>
+
+</section>
+
+<!-- ==================== Deal ==================== -->
+
+<section class="deal">
+
+    <div class="heading">
+        <h1>DEAL OF THE DAY</h1>
+        
+    </div>
+
+    <div class="container">
+
+        <div class="box-3">
+            <div class="image">
+                <img src="images/products/shirt-2.jpg" alt="">
+            </div>
+            <div class="box-3-text">
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h3>Formal Designable White Color Shirt</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda iure soluta similique officia obcaecati consectetur.</p>
+                <h2><del>₹ 2000</del> ₹1499</h2>
+                <button class="deal-btn">Add To Cart</button>
+                <div class="sold">
+                    <div class="text-side"><p>ALREADY SOLD: 25</p></div>
+                    <div class="text-side"><p>AVAILABLE: 40</p></div>
+                </div>
+                <div class="bar"><span></span></div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ====================== offer ======================== -->
+
+<section class="offer">
+
+    <div class="heading">
+        <h1>MEGA OFFERS</h1>
+        
+    </div>
+
+    <div class="container">
+
+        <div class="box-5">
+            <div class="card">
+                <h3>25% Discount</h3>
+                <h2>Summer <br> Collection</h2>
+                <h4>starting From ₹199</h4>
+                <button class="deal-btn">Shop Now</button>
+
+            </div>
+        </div>
+
+        <div class="box-6">
+
+            <div class="card">
+                <h3>35% Discount</h3>
+                <h2>Electronics <br> Collection</h2>
+                <h4>starting From ₹299</h4>
+                <button class="deal-btn">Shop Now</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =================== Products ======================= -->
+
+<section class="product" id="product">
+
+    <div class="heading">
+        <h1>NEW PRODUCTS</h1>
+        
+    </div>
+
+    <div class="container">
+
+        <div class="box-7">
+            <i class="fa-regular fa-heart icon-hvr"></i>
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-code-compare"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <img src="images/products/buy-1.jpg" class="img-hov" alt="">
+            <img src="images/products/gallery-3.jpg" class="img-hov2" alt="">
+
+            <p class="cat">T-Shirt</p>
+            <h3>Red Printed T-Shirt</h3>
+
+            <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+            <p class="price"><del>₹699</del>₹499</p>
+            <button class="deal-btn">Shop Now</button>
+
+        </div>
+
+        <div class="box-7">
+            <i class="fa-regular fa-heart icon-hvr"></i>
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-code-compare"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <img src="images/products/jacket-5.jpg" class="img-hov" alt="">
+            <img src="images/products/jacket-6.jpg" class="img-hov2" alt="">
+
+            <p class="cat">Jacket</p>
+            <h3>Lether Jacket</h3>
+
+            <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+            <p class="price"><del>₹1299</del>₹1099</p>
+            <button class="deal-btn">Shop Now</button>
+
+        </div>
+
+        <div class="box-7">
+            <i class="fa-regular fa-heart icon-hvr"></i>
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-code-compare"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <img src="images/products/shoe-2.jpg" class="img-hov" alt="">
+            <img src="images/products/shoe-2_1.jpg" class="img-hov2" alt="">
+
+            <p class="cat">Shoes</p>
+            <h3>Lether Shoes</h3>
+
+            <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+            <p class="price"><del>₹899</del>₹799</p>
+            <button class="deal-btn">Shop Now</button>
+
+        </div>
+
+        <div class="box-7">
+            <i class="fa-regular fa-heart icon-hvr"></i>
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-code-compare"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <img src="images/products/product-8.jpg" class="img-hov" alt="">
+            <img src="images/products/product-9-1.jpg" class="img-hov2" alt="">
+
+            <p class="cat">Watches</p>
+            <h3>Black Watch</h3>
+
+            <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+            <p class="price"><del>₹599</del>₹399</p>
+            <button class="deal-btn">Shop Now</button>
+
+        </div>
+
+        <div class="box-7">
+            <i class="fa-regular fa-heart icon-hvr"></i>
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-code-compare"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <img src="images/products/shoe-4.jpg" class="img-hov" alt="">
+            <img src="images/products/shoe-5.jpg" class="img-hov2" alt="">
+
+            <p class="cat">Shoes</p>
+            <h3>Brown Boot</h3>
+
+            <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+            <p class="price"><del>₹1599</del>₹1199</p>
+            <button class="deal-btn">Shop Now</button>
+
+        </div>
+
+        <div class="box-7">
+            <i class="fa-regular fa-heart icon-hvr"></i>
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-code-compare"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <img src="images/products/jacket-2.jpg" class="img-hov" alt="">
+                <img src="images/products/jacket-3.jpg" class="img-hov2" alt="">
+
+            <p class="cat">Jackets</p>
+            <h3>Two Piece Jaket </h3>
+
+            <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+            <p class="price"><del>₹1499</del>₹1299</p>
+            <button class="deal-btn">Shop Now</button>
+
+        </div>
+
+        <div class="box-7">
+            <i class="fa-regular fa-heart icon-hvr"></i>
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-code-compare"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <img src="images/products/shoe-1.jpg" class="img-hov" alt="">
+                <img src="images/products/shoe-1_1.jpg" class="img-hov2" alt="">
+
+            <p class="cat">Shoes</p>
+            <h3>Black Shine Shoes</h3>
+
+            <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+            <p class="price"><del>₹999</del>₹799</p>
+            <button class="deal-btn">Shop Now</button>
+
+        </div>
+
+        <div class="box-7">
+            <i class="fa-regular fa-heart icon-hvr"></i>
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-code-compare"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <img src="images/products/shirt-1.jpg" class="img-hov" alt="">
+                <img src="images/products/shirt-2.jpg" class="img-hov2" alt="">
+
+            <p class="cat">Shirts</p>
+            <h3>Stylish Shirts</h3>
+
+            <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+            <p class="price"><del>₹1799</del>₹1599</p>
+            <button class="deal-btn">Shop Now</button>
+
+        </div>
+
+        <div class="box-7">
+            <i class="fa-regular fa-heart icon-hvr"></i>
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-code-compare"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <img src="images/products/watch-1.jpg" class="img-hov" alt="">
+                <img src="images/products/watch-2.jpg" class="img-hov2" alt="">
+
+            <p class="cat">Watches</p>
+            <h3>Sonata Watch 3</h3>
+
+            <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+            <p class="price"><del>₹1599</del>₹1199</p>
+            <button class="deal-btn">Shop Now</button>
+
+        </div>
+
+        <div class="box-7">
+            <i class="fa-regular fa-heart icon-hvr"></i>
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-code-compare"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <img src="images/products/jacket-3.jpg" class="img-hov" alt="">
+                <img src="images/products/jacket-1.jpg" class="img-hov2" alt="">
+
+            <p class="cat">Jackets</p>
+            <h3>Lether 2Piece Jacket</h3>
+
+            <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+            <p class="price"><del>₹1199</del>₹1099</p>
+            <button class="deal-btn">Shop Now</button>
+
+        </div>
+
+        <div class="box-7">
+            <i class="fa-regular fa-heart icon-hvr"></i>
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-code-compare"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <img src="images/products/watch-3.jpg" class="img-hov" alt="">
+                <img src="images/products/watch-4.jpg" class="img-hov2" alt="">
+
+            <p class="cat">Watches</p>
+            <h3>Stop Watch 2</h3>
+
+            <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+            <p class="price"><del>₹1499</del>₹1299</p>
+            <button class="deal-btn">Shop Now</button>
+
+        </div>
+
+        <div class="box-7">
+            <i class="fa-regular fa-heart icon-hvr"></i>
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-code-compare"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <img src="images/products/cat-4.jpg" class="img-hov" alt="">
+                <img src="images/products/shampo-1-2.jpg" class="img-hov2" alt="">
+
+            <p class="cat">Shampoo</p>
+            <h3>Shampoo</h3>
+
+            <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+            <p class="price"><del>₹599</del>₹399</p>
+            <button class="deal-btn">Shop Now</button>
+
+        </div>
+
+        <div class="box-7">
+            <i class="fa-regular fa-heart icon-hvr"></i>
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-code-compare"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <img src="images/products/cat-2.jpg" class="img-hov" alt="">
+                <img src="images/products/product-1.jpg" class="img-hov2" alt="">
+
+            <p class="cat">Electronics</p>
+            <h3>Canon Camera</h3>
+
+            <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+            <p class="price"><del>₹54599</del>₹44099</p>
+            <button class="deal-btn">Shop Now</button>
+
+        </div>
+
+        <div class="box-7">
+            <i class="fa-regular fa-heart icon-hvr"></i>
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-code-compare"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <img src="images/products/2.jpg" class="img-hov" alt="">
+                <img src="images/products/3.jpg" class="img-hov2" alt="">
+
+            <p class="cat">T-shirts</p>
+            <h3>Formal T-Shirts</h3>
+
+            <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+            <p class="price"><del>₹699</del>₹599</p>
+            <button class="deal-btn">Shop Now</button>
+
+        </div>
+
+        <div class="box-7">
+            <i class="fa-regular fa-heart icon-hvr"></i>
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-code-compare"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <img src="images/products/sports-2.jpg" class="img-hov" alt="">
+                <img src="images/products/sports-4.jpg" class="img-hov2" alt="">
+
+            <p class="cat">Shoes</p>
+            <h3>Sport Shoes</h3>
+
+            <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+            <p class="price"><del>₹2099</del>₹1799</p>
+            <button class="deal-btn">Shop Now</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ============= newsletter ================ -->
+
+<form action="" class="newsletter">
+    <h2>Subscribe Our Newsletter & Join US</h2>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <div class="newsletter-box">
+        <i class="fas fa-envelope"></i>
+        <input class="emailbox" type="email" name="" value="" placeholder="Enter your email id">
+        <button type="button" name="button">Subscribe</button>
+    </div>
+</form>
+
+<!-- ====================== Testimonials =============== -->
+
+<section class="testimonials" id="testi">
+    <div class="heading">
+        <h1>TESTIMONIALS</h1>
+        
+    </div>
+    <div class="container">
+        <div class="box-8">
+            <img src="images/profile3.jpg" alt="">
+            <h2>Ahmed Khan</h2>
+            <h4>Web Developer</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis distinctio, mollitia doloribus quas cumque magnam?</p>
+            <div class="test-social">
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        
+        <div class="box-8">
+            <img src="images/profile4.jpg" alt="">
+            <h2>Johnson Way</h2>
+            <h4>Frontend Developer</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis distinctio, mollitia doloribus quas cumque magnam?</p>
+            <div class="test-social">
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <div class="box-8">
+            <img src="images/profile5.jpg" alt="">
+            <h2>Hazket Omar</h2>
+            <h4>UI/UX Designer</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis distinctio, mollitia doloribus quas cumque magnam?</p>
+            <div class="test-social">
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <div class="box-8">
+            <img src="images/profile7.jpg" alt="">
+            <h2>Devid Kim</h2>
+            <h4>Backend Developer</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis distinctio, mollitia doloribus quas cumque magnam?</p>
+            <div class="test-social">
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= footer ======================= -->
+
+<footer class="foot" id="foot">
+    <div class="row">
+        <div class="box-9">
+            <h3><ins>CATEGORIES</ins></h3>
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Fashion</a></li>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Electronics</a></li>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Cosmetic</a></li>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Shoes</a></li>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Watches</a></li>
+            </ul>
+        </div>
+
+        
+        <div class="box-9">
+            <h3><ins>PRODUCTS</ins></h3>
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Prices Drop</a></li>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>New Products</a></li>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Best Sales</a></li>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Contact Us</a></li>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Sitemap</a></li>
+            </ul>
+        </div>
+
+        <div class="box-9">
+            <h3><ins>OUR COMPANY</ins></h3>
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Delivery</a></li>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Legal Notice</a></li>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Terms And Conditions</a></li>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>About Us</a></li>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Secure Payments</a></li>
+            </ul>
+        </div>
+
+        <div class="box-9">
+            <h3><ins>Quick Links</ins></h3>
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Home</a></li>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Products</a></li>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>New Arrival</a></li>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Cart</a></li>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Login/Signup</a></li>
+            </ul>
+        </div>
+
+        <div class="box-9">
+            <h3><ins>CONTACT</ins></h3>
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>419 State 414 Rte Beaver <br> Dams, New York(NY),<br> 14812, USA</a></li>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>(607) 936-7089</a></li>
+                <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Example@Gmail.Com</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <br>
+<hr>
+
+<div class="copy">
+    <h3>Copyright © ShopMania All Rights Reserved.</h3>
+</div>
+
+</footer>
+
+
+</body>
+
+<script>
+
+        const mobile_nav = document.querySelector(".mobile-menu")
+        const header_nav = document.querySelector(".header")
+
+        const toggleNav = () => {
+            header_nav.classList.toggle("active");
+        };
+
+        mobile_nav.addEventListener('click', () => toggleNav());
+
+        function showfom(){
+        document.querySelector('.fom').classList.add('showform');
+    }
+    function hidefom(){
+        document.querySelector('.fom').classList.remove('showform');
+    }
+
+</script>
+
+</html>
